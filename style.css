@@ -1,0 +1,147 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Tangerine&display=swap');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: burlywood;
+}
+
+.bg-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 9px;
+}
+
+img {
+  width: 100%;
+  height: 97vh;
+}
+
+.title {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  font-size: 4em;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.chat {
+  position: absolute;
+  top: 90%; 
+  left: 90%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  font-size: 1em;
+  padding: 3px;
+  background-color: orange;
+  border-radius: 20%;
+  color: white;
+}
+
+.top {
+  position: absolute;
+  top: 9px; 
+  left: 9px; 
+  right: 9px;
+  font-size: 1em;
+  background-color: white;
+  padding: 1px;
+  border: orange 3px solid;
+  font-family: 'Amatic SC', cursive;
+  color: orange;
+  text-align: center;
+}
+.right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  position: absolute;
+  top: 31px; 
+  left: 9px;
+  z-index: 999;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  height: 95vh;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  position: absolute;
+  top: 31px; 
+  right: 9px;
+  z-index: 999;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  height: 95vh;
+}
+
+.location {
+  text-align: center;
+    font-size: 1em;
+  padding: 2px;
+  background-color: orange;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  height: 100%;
+}
+
+.news, .social{
+  text-align: center;
+    font-size: 1em;
+  text-orientation: sideways-right;
+  justify-content: flex-end;
+  padding: 2px;
+  border: orange 3px solid;
+  font-family: 'Amatic SC', cursive;
+  color: orange;
+  height: 100%;
+  background-color: white;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 4px; 
+  left: 9px; 
+  right: 9px;
+  font-size: 1em;
+  background-color: white;
+  padding: 1px;
+  border: orange 3px solid;
+  font-family: 'Amatic SC', cursive;
+  color: orange;
+  text-align: center;
+}
+
+.order, .reservation {
+  text-align: center;
+  font-size: 1em;
+  padding: 2px;
+  background-color: green;
+  border: orange 3px solid;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  height: 100%;
+}
+
+.icon {
+  font-size: 5em;
+  position: absolute;
+  top: 20%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  color: green;
+}
